@@ -23,9 +23,6 @@ $path = "annonces";
 
 4- Then create a MySQL database with the structure below :
 
---
--- Table structure for table `announcements`
---
 
 CREATE TABLE `announcements` (
   `id` varchar(255) NOT NULL,
@@ -35,11 +32,6 @@ CREATE TABLE `announcements` (
   FULLTEXT KEY `content` (`content`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
--- --------------------------------------------------------
-
---
--- Table structure for table `gazettes`
---
 
 CREATE TABLE `gazettes` (
   `id` int(10) NOT NULL AUTO_INCREMENT,
