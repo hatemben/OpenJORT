@@ -1,7 +1,7 @@
 OpenJORT
 ========
 
-Opening up Tunisian's Official Gazette
+Opening up Tunisia's Official Gazette
 
 How to use these scripts :
 
