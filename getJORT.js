@@ -17,7 +17,7 @@ function myDownload()
 {
 if (i<=10) {
 _PAGE_.A3.value=i;
-_JSL(_PAGE_,'A15','_self','',''));
+_JSL(_PAGE_,'A15','_self','','');
 console.log('Downloading PDF '+i);
 ++i;
 } else if (i == 11){
